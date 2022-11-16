@@ -1499,11 +1499,12 @@ table {
     padding: 0.75em 0.75em; 
     text-align: center;}
   table th {
-    color: #3d4449;
+    color: #ffffff;
     font-size: 0.9em;
     font-weight: 600;
-    padding: 0 0.75em 0.75em 0.75em;
-    text-align: left; }
+    padding: 0.75em 0.75em 0.75em 0.75em;
+    background-color: #000000;
+    text-align: center; }
   table thead {
     border-bottom: solid 2px rgba(210, 215, 217, 0.75); }
   table tfoot {
@@ -2463,13 +2464,12 @@ div.img-resize2 img {
   }
 
   div.img-resize2 {
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: auto;
     background-position: center;
     background-size: cover;
     overflow: hidden;
     text-align: center;
-    border-radius: 10px;
     }
 
   div.displayShirt {
@@ -2484,6 +2484,16 @@ div.img-resize2 img {
     margin-bottom: 20px;
     padding: 15px 0px 0px;
   }
+
+  div.displayShirt2 {
+    width: 100px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+  }
+
 
   div.distance {
     margin-left: 20%;
@@ -2503,7 +2513,15 @@ div.img-resize2 img {
   }
 
   .Center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+    width: 80%;
+  }
+
+  .Center2 {
+    margin: auto;
+    width: 95%;
+  }
+
+  .positionTable{
+    padding-top: -20px;
   }
