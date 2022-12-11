@@ -22,90 +22,74 @@
 
 							<!-- Header -->
 								<header id="header">
-									<p>ยินดีต้อนรับ คุณ admin</p>
-									<!-- <a href="index.html" class="logo2">logout2</a> -->
-									<!-- <a href="index.html" class="logo">logout</a> -->
+									<!-- <a href="login.html" class="logo"><strong>login</strong> by HTML5 UP</a> -->
 									
+									<!-- <a href="login.html" class="logo">login</a>
+									<a href="login.html" class="logo">register</a> -->
 									<!-- <strong>ยินดีต้อนรับ</strong> -->
 									<ul class="icons">
 										<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
 										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
-										<li><a href="profile.html" class="logo">แก้ไขข้อมูลส่วนตัว</a></li>
-										<li><a href="index.html" class="logo">logout</a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+										<li><a href="#" class="icon brands fa-user-circle-o" aria-hidden="true"><span class="label">User</span></a></li> -->
+										<li><input type="button" onclick="history.back()" value="ย้อนกลับ"></li>
+										<!-- <li><a href="login.html" class="logo">login</a></li>
+										<li><a href="register.html" class="logo">register</a></li> -->
 									</ul>
 									<!-- <i class="fa fa-user-circle" aria-hidden="true"></i> -->
 								</header>
 
 							<!-- Banner -->
-								<section id="banner">
-									<header>
-									</header>
-									<div class="Center">
-										<h3>ลูกค้าที่สั่งออร์เดอร์ในช่วง 1 สัปดาห์ที่ผ่านมา</h3>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>ลำดับที่</th>
-														<th>Username</th>
-														<th>ชื่อ</th>
-														<th>นามสกุล</th>
-														<th>วันที่สั่งออร์เดอร์</th>
-														<th>id order</th>
-														<th>ออร์เดอร์</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>1</td>
-														<td>qwerty</td>
-														<td>นายนวพร</td>
-														<td>หลงเหลือยิ่ง</td>
-														<td>11/11/65</td>
-														<td>bts1111220001</td>
-														<td><a href="test1.html" class="button secondary">คลิ๊กที่นี่</a></td>
-													</tr>
-													<tr>
-														<td>2</td>
-														<td>นางนงนวล</td>
-														<td>นางนงนวล</td>
-														<td>อุดรรัตนธี</td>
-														<td>12/11/65</td>
-														<td>bts1112220001</td>
-														<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
-													</tr>
-													<tr>
-														<td>3</td>
-														<td>บุษกร เอื้ออำพร</td>
-														<td>บุษกร</td>
-														<td>นภาลัย</td>
-														<td>13/11/65</td>
-														<td>bts1113220001</td>
-														<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
-													</tr>
-													
-												</tbody>
-												
-											</table>
-										</div>
-										
+								<!-- <section id="banner">
+									<div class="content">
+										<header>
+											<h1>หน้าแก้ไขข้อมูลส่วนตัว</h1>
+											<p>A free and fully responsive site template</p>
+										</header>
+										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+										<ul class="actions">
+											<li><a href="#" class="button big">Learn More</a></li>
+										</ul>
 									</div>
-									<!-- <span class="image object">
+									<span class="image object">
 										<img src="images/pic10.jpg" alt="" />
-									</span> -->
-									
-								</section>
+									</span>
+								</section> -->
 
 							<!-- Section -->
-								<!-- <section>
-									<header class="major">
-										<h2>Erat lacinia</h2>
-									</header>
+							<section>
+								<header class="align-center">
+									<h2>ข้อมูลของลูกค้า</h2>
+								</header>
+								<!-- <div class="box space"></div> -->
 									<div class="features">
-										<article>
+										<form class="box">
+											<label for="fname">Username: qwerty</label><br>
+											<!-- <input type="text" id="uname" name="uname" value="admin"><br> -->
+											<label for="lname">Name: นายนวพร</label><br>
+											<!-- <input type="text" id="name" name="name" value="adam"><br> -->
+                                            <label for="fname">Lastname: หลงเหลือยิ่ง</label><br>
+											<!-- <input type="text" id="lname" name="lname" value="smith"><br> -->
+											<label for="lname">Address: 123 ต.ไม่รู้ อ.ไม่ทราบ จ.ทุกแห่ง 10000</label><br>
+											<!-- <div class="col-12">
+												<textarea name="demo-message" id="addr" placeholder="12 nowhere" rows="6"></textarea>
+											</div><br> -->
+											<!-- <input type="text" id="addr" name="addr" value="12 nowhere"><br> -->
+                                            <label for="fname">phone: 123-4567890</label><br>
+											<!-- <input type="text" id="phone" name="phone" value="111-2222"><br> -->
+											<!-- <label for="lname">Password:</label>
+											<input type="password" id="pass" name="pass" value="1234"><br>
+											<label for="lname">Conflim Password:</label>
+											<input type="password" id="pass" name="pass" value="1234"><br> -->
+											<!-- <input type="submit" value="Submit"> -->
+											<input type="button" onclick="history.back()" class="button secondary" value="ตกลง"></input>
+											<!-- <input type="button" onclick="history.back()" class="button primary" value="ยกเลิก"></input> -->
+										  </form>
+										</div>
+										
+										<!-- <article>
 											<span class="icon fa-gem"></span>
 											<div class="content">
 												<h3>Portitor ullamcorper</h3>
@@ -132,9 +116,9 @@
 												<h3>Sed magna finibus</h3>
 												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 											</div>
-										</article>
-									</div>
-								</section> -->
+										</article> -->
+									
+								</section>
 
 							<!-- Section -->
 								<!-- <section>
@@ -214,18 +198,18 @@
 									</header>
 									<ul>
 										<li><a href="indexLoginIsTrue.html">หน้าหลัก</a></li>
-										<li><a href="order.html">รายการที่ลูกค้าสั่ง</a></li>
-										<li><a href="checkorder.html">ข้อมูลลูกค้า</a></li>
-										<!-- <li>
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li> -->
-										<li><a href="purchase.html">การชำระเงิน</a></li>
+									<li><a href="order.html">รายการที่ลูกค้าสั่ง</a></li>
+									<li><a href="checkorder.html">ข้อมูลลูกค้า</a></li>
+									<!-- <li>
+										<span class="opener">Submenu</span>
+										<ul>
+											<li><a href="#">Lorem Dolor</a></li>
+											<li><a href="#">Ipsum Adipiscing</a></li>
+											<li><a href="#">Tempus Magna</a></li>
+											<li><a href="#">Feugiat Veroeros</a></li>
+										</ul>
+									</li> -->
+									<li><a href="purchase.html">การชำระเงิน</a></li>
 										<!-- <li><a href="#">Adipiscing</a></li> -->
 										<!-- <li>
 											<span class="opener">Another Submenu</span>
@@ -265,6 +249,8 @@
 										<li><a href="#" class="button">More</a></li>
 									</ul>
 								</section> -->
+
+							<!-- Section -->
 								
 
 						</div>
