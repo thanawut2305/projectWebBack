@@ -52,7 +52,8 @@
 								<header>
 								</header>
 								<div class="Center">
-									<h3>ลูกค้าที่สั่งออร์เดอร์ทั้งหมด</h3>
+									<h3 >ลูกค้าที่สั่งออร์เดอร์ทั้งหมด</h3>
+									
 									
 									<div class="table-wrapper">
 										<table class="alt">
@@ -86,24 +87,7 @@
 													<td>bts1112220001</td>
 													<td><a href="test1.php" class="button secondary" value="คลิ๊กที่นี่">คลิ๊กที่นี่</a></td>
 												</tr>
-												<tr>
-													<td>3</td>
-													
-													<td>บุษกร</td>
-													<td>นภาลัย</td>
-													<td>13/11/65</td>
-													<td>bts1113220001</td>
-													<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
-												</tr>
-												<tr>
-													<td>4</td>
-													
-													<td>ทดสอบ</td>
-													<td>ไร้สกุล</td>
-													<td>13/10/65</td>
-													<td>bts1013220001</td>
-													<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
-												</tr>
+												
 												
 											</tbody>
 											

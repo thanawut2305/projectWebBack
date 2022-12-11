@@ -35,77 +35,90 @@
 									</ul>
 									<!-- <i class="fa fa-user-circle" aria-hidden="true"></i> -->
 								</header>
-								<!-- <header id="header">
-									<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-									</ul>
-								</header> -->
+								<section>
 
-							<!-- Content -->
-							<section id="banner">
-								<header>
-								</header>
-								<div class="Center">
-									<h3>ข้อมูลของลูกค้า</h3>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>ลำดับที่</th>
-													<th>Username</th>
-													<th>ชื่อ</th>
-													<th>นามสกุล</th>
-													<!-- <th>วันที่สั่งออร์เดอร์ล่าสุด</th> -->
-													<th>รายระเอียดเพิ่มเติม</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>1</td>
-													<td>qwerty</td>
-													<td>นายนวพร</td>
-													<td>หลงเหลือยิ่ง</td>
-													<!-- <td>11/11/65</td> -->
-													<td><a href="test2.html" class="button secondary" value="คลิ๊กที่นี่">คลิ๊กที่นี่</a></td>
-												</tr>
-												<tr>
-													<td>2</td>
-													<td>นางนงนวล</td>
-													<td>นางนงนวล</td>
-													<td>อุดรรัตนธี</td>
-													<!-- <td>12/11/65</td> -->
-													<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
-												</tr>
-												<tr>
-													<td>3</td>
-													<td>บุษกร เอื้ออำพร</td>
-													<td>บุษกร</td>
-													<td>นภาลัย</td>
-													<!-- <td>13/11/65</td> -->
-													<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
-												</tr>
-												<tr>
-													<td>4</td>
-													<td>ลองลอง</td>
-													<td>ทดสอบ</td>
-													<td>ไร้สกุล</td>
-													<!-- <td>13/10/65</td> -->
-													<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
-												</tr>
+									<!-- Elements -->
+										<!-- <h2 id="elements">Elements</h2> -->
+										<div class="row gtr-200">
+											<div class="col-6 col-12-medium">
+
+												<div class="displayShirt">
+													<!-- <div class="col-8 col-12-small">
+														<p>รูปที่จะใช้สกรีน</p>
+													</div> -->
+													<p><strong>ภาพที่จะใช้สกรีน</strong></p>
+													<div class="img-resize"><span><img src="images/foxx.jpg" alt="" /></span></div>
+													<!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p> -->
+	
+												</div>
+												<div class="displayShirt">
+													<p><strong>เสื้อยืดที่เลือก</strong></p>
+													<div class="img-resize"><span><img src="images/ShowBlack.jpg" alt="" /></span></div><br>
+												</div>
+												<div class="displayShirt">
+												<div id="boxCenter">
+												<p><strong>ตัวอย่างการสกรีน</strong></p>
+												<div id="display_image"></div><br>
+												<!-- <span>*กรุณาเลือกลายรูป*</span><br><br> -->
+												<input type="file" id="image_input" name="logofile" accept="image/png, image/jpeg">
 												
-											</tbody>
-											
-										</table>
-									</div>
-									
-								</div>
-								
-							</section>
+											</div>
+												</div>
+											</div>
+											<div class="col-6 col-12-medium">
+
+												<form class="boxOrder">
+													<label for="fname">ไซส์เสื้อยืด: M</label>
+													<br>
+													<label for="lname">สีเสื้อยืด: สีดำ</label>
+													<br>
+													<label for="fname">จำนวนเสื้อยืด: 50</label>
+													<br>
+														<label for="lname">สีที่จะใช้สกรีน: </label><div class="col-6 col-12-xsmall">
+														<div class="boxCenter" ></div>
+													</div>
+													<br>
+													<!-- <input type="text" id="addr" name="addr" value="12 nowhere"><br> -->
+													<label for="fname">ชื่อลูกค้า:</label>
+													<label for="fname">นามสกุลลูกค้า:</label>
+													<label for="fname">ที่อยู่: 123 ต.ไม่รู้ อ.ไม่ทราบ จ.ทุกแห่ง 10000:</label>
+													<label for="fname">เบอร์โทร: 123-4567890:</label>
+													
+													<!-- <a href="purchase.html" class="button secondary">ชำระเงิน</a> -->
+													<!-- <a href="purchase.html" class="button secondary">ชำระเงินคงเหลือ</a> -->
+													<label for="lname">ราคาที่ประเมิน: </label>
+													<input type="number" value=""></input>
+													<label >สถานะออเดอร์:</label>
+													<select >
+ 														 <option value="">กำลังประเมินราคา</option>
+ 														 <option value="">รอชำระเงินมัดจำ/เต็มจำนวน</option>
+														 <option value="">รอการชำระเงินส่วนที่เหลือ</option>
+														  
+ 														 <option value="">กำลังผลิต</option>
+ 														 <option value="">กำลังจัดส่งสินค้า</option>
+														 <option value="">จัดส่งสินค้าสำเร็จ</option>
+													</select>
+													<label for="lname">บริการขนส่งโดย: -</label>
+													<select >
+ 														 <option value="">Kerry</option>
+ 														 <option value="">ไปรษณีไทย</option>
+													</select>
+													<label for="lname">หมายเลขรหัสพัสดุ: -</label>
+													<input type="text" value=""></input>
+													<br>
+													<a href="order.html" onclick="return confirm('คุณต้องการยกเลิกออเดอร์นี้')" class="button primary">ยกเลิก</a>
+													<a href="order.html" class="button secondary">บันทึก</a>
+												</form>
+
+													<form method="post" action="#">
+														<div class="row gtr-uniform">
+															
+														</div>
+													</form>
+											</div>
+										</div>
+
+								</section>
 
 						</div>
 					</div>
@@ -131,7 +144,6 @@
 									<li><a href="order.html">รายการที่ลูกค้าสั่ง</a></li>
 									
 									<li><a href="checkorder.html">ข้อมูลลูกค้า</a></li>
-									
 									<!-- <li>
 										<span class="opener">Submenu</span>
 										<ul>

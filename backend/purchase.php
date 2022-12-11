@@ -10,6 +10,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="text/javascript">
+			function popup(){
+				prompt("กรอกเงินที่ลูกค้าจ่ายผิด");
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -52,10 +57,12 @@
 												<tr>
 													<th>ลำดับที่</th>
 													
-													<th>ชื่อ</th>
+													
 													<th>id order</th>
+													<th>ราคาเต็ม</th>
+													<th>ราคามัดจำ</th>
 													<th>ประเภทการชำระ</th>
-													<th>จำนวนเงินที่จ่าย(บาท)</th>
+													<th>ยอดค้างชำระ</th>
 													<th>วันที่ชำระ</th>
 													<th>สลีป</th>
 													<th>อนุมัติการชำระเงิน</th>
@@ -65,10 +72,12 @@
 												<tr>
 													<td>1</td>
 													
-													<td>นายนวพร</td>
+													
 													<td>bts1111220001</td>
+													<td>1000</td>
+													<td>200</td>
 													<td>มัดจำ</td>
-													<td>560</td>
+													<td>800</td>
 													<td>11/11/65</td>
 													<td>
 														<div class="displayShirt2">
@@ -77,10 +86,10 @@
 													</td>
 													<td>
 														<div class="positionTable">
-															<input type="button" class="button secondary" value="มัดจำ"></input><br>
+															<input type="button" class="button secondary" onclick="return confirm('ยืนยันการชำระเงินถูกต้อง')" value="การชำระถูกต้อง"></input><br>
 														</div>
 														<div class="positionTable">
-															<input type="button" class="button secondary" value="เต็มจำนวน"></input><br>
+															<input type="button" class="button danger" onclick="popup();" value="การชำระไม่ถูกต้อง"></input><br>
 														</div>
 														
 													</td>
@@ -88,10 +97,12 @@
 												<tr>
 													<td>2</td>
 													
-													<td>นางนงนวล</td>
+													
 													<td>bts1112220001</td>
+													<td>000</td>
+													<td>400</td>
 													<td>จ่ายเต็มจำนวน</td>
-													<td>560</td>
+													<td>0</td>
 													<td>12/11/65</td>
 													<td>
 														<div class="displayShirt2">
@@ -100,10 +111,10 @@
 													</td>
 													<td>
 														<div class="positionTable">
-															<input type="button" class="button secondary" value="มัดจำ"></input><br>
+															<input type="button" class="button secondary" onclick="return confirm('ยืนยันการชำระเงินถูกต้อง')" value="การชำระถูกต้อง"></input><br>
 														</div>
 														<div class="positionTable">
-															<input type="button" class="button secondary" value="เต็มจำนวน"></input><br>
+															<input type="button" class="button danger" value="การชำระไม่ถูกต้อง"></input><br>
 														</div>
 														
 													</td>
@@ -111,10 +122,12 @@
 												<tr>
 													<td>3</td>
 													
-													<td>บุษกร</td>
+												
 													<td>bts1113220001</td>
+													<td>500</td>
+													<td>100</td>
 													<td>มัดจำ</td>
-													<td>560</td>
+													<td>400</td>
 													<td>13/11/65</td>
 													<td>
 														<div class="displayShirt2">
@@ -123,10 +136,10 @@
 													</td>
 													<td>
 														<div class="positionTable">
-															<input type="button" class="button secondary" value="มัดจำ"></input><br>
+															<input type="button" class="button secondary" onclick="return confirm('ยืนยันการชำระเงินถูกต้อง')" value="การชำระถูกต้อง"></input><br>
 														</div>
 														<div class="positionTable">
-															<input type="button" class="button secondary" value="เต็มจำนวน"></input><br>
+															<input type="button" class="button danger" value="การชำระไม่ถูกต้อง"></input><br>
 														</div>
 														
 													</td>
@@ -134,10 +147,12 @@
 												<tr>
 													<td>4</td>
 													
-													<td>ทดสอบ</td>
+													
 													<td>bts1013220001</td>
+													<td>800</td>
+													<td>80</td>
 													<td>มัดจำ</td>
-													<td>560</td>
+													<td>720</td>
 													<td>13/10/65</td>
 													<td>
 														<div class="displayShirt2">
@@ -146,10 +161,10 @@
 													</td>
 													<td>
 														<div class="positionTable">
-															<input type="button" class="button secondary" value="มัดจำ"></input><br>
+															<input type="button" class="button secondary" onclick="return confirm('ยืนยันการชำระเงินถูกต้อง')" value="การชำระถูกต้อง"></input><br>
 														</div>
 														<div class="positionTable">
-															<input type="button" class="button secondary" value="เต็มจำนวน"></input><br>
+															<input type="button" class="button danger" value="การชำระไม่ถูกต้อง"></input><br>
 														</div>
 														
 													</td>
@@ -283,7 +298,7 @@
 									<ul>
 										<li><a href="indexLoginIsTrue.html">หน้าหลัก</a></li>
 										<li><a href="order.html">รายการที่ลูกค้าสั่ง</a></li>
-										<li><a href="order.php">ประเมินราคา</a></li>
+										
 										<li><a href="checkorder.html">ข้อมูลลูกค้า</a></li>
 										
 										<!-- <li>
@@ -295,7 +310,7 @@
 												<li><a href="#">Feugiat Veroeros</a></li>
 											</ul>
 										</li> -->
-										<li><a href="purchase.html">การชำระเงิน</a></li>
+										<li><a href="purchase.php">การชำระเงิน</a></li>
 										<!-- <li><a href="#">Adipiscing</a></li> -->
 										<!-- <li>
 											<span class="opener">Another Submenu</span>
