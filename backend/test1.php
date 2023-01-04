@@ -106,8 +106,8 @@
 													<label for="lname">หมายเลขรหัสพัสดุ: -</label>
 													<input type="text" value=""></input>
 													<br>
-													<a href="order.html" onclick="return confirm('คุณต้องการยกเลิกออเดอร์นี้')" class="button primary">ยกเลิก</a>
-													<a href="order.html" class="button secondary">บันทึก</a>
+													<a href="order.php" onclick="return confirm('คุณต้องการยกเลิกออเดอร์นี้')" class="button primary">ยกเลิก</a>
+													<a href="order.php" class="button secondary">บันทึก</a>
 												</form>
 
 													<form method="post" action="#">
@@ -140,8 +140,8 @@
 									<h2>Menu</h2>
 								</header>
 								<ul>
-									<li><a href="indexLoginIsTrue.html">หน้าหลัก</a></li>
-									<li><a href="order.html">รายการที่ลูกค้าสั่ง</a></li>
+									<li><a href="indexLoginIsTrue.php">หน้าหลัก</a></li>
+									<li><a href="order.php">รายการที่ลูกค้าสั่ง</a></li>
 									
 									<li><a href="checkorder.html">ข้อมูลลูกค้า</a></li>
 									<!-- <li>

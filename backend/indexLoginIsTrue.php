@@ -10,6 +10,21 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<?php
+		@ini_set('display_errors', '0');
+		session_start(); 
+		if($_FILES){
+			
+			$logo = $_FILES['logofile'];
+			$dir = "images/";
+			$logo = $dir . basename($_FILES['logofile']['name']);
+			move_uploaded_file($_FILES['logofile']['tmp_name'],$logo);
+			$_SESSION["example"]=$logo;
+			$_SESSION["option"]=$_POST['option'];
+			$_SESSION["serial"]=$_POST['serial'];
+			$_SESSION["tp"]=$_POST['tp'];
+		}
+		?>
 	</head>
 	<body class="is-preload">
 
@@ -45,6 +60,7 @@
 									</header>
 									<div class="Center">
 										<h3>ออร์เดอร์ที่อยู่ในระหว่างการดำเนินการ</h3>
+										
 										<div class="table-wrapper">
 											<table class="alt">
 												<thead>
@@ -86,7 +102,14 @@
 														<td>กำลังแก้ไขตัวอย่าง</td>
 														
 													</tr>
-													
+													<tr>										
+													<td><?php echo $_SESSION["name"]; ?></td>
+													<td><?php echo $_SESSION["fname"]; ?></td>
+													<td><?php echo $_SESSION["date1"]; ?></td>
+													<td><a href="test2.php" >bts1112220001</a></td>
+													<td>0</td>
+														<td>กำลังแก้ไขตัวอย่าง</td>
+												</tr>
 												</tbody>
 												
 											</table>
@@ -127,8 +150,15 @@
 													<td><a href="test1.html" >bts1112220001</a></td>
 													
 												</tr>
-												
-												
+												<?php if($_SESSION["number"] == 2){ ?>
+													<tr>										
+													<td><?php echo $_SESSION["name"]; ?></td>
+													<td><?php echo $_SESSION["fname"]; ?></td>
+													<td><?php echo $_SESSION["date"]; ?></td>
+													<td><a href="test2.php" >bts1112220001</a></td>
+													
+												</tr>
+													<?php } ?>
 											</tbody>
 											
 										</table>
@@ -150,12 +180,21 @@
 											</thead>
 											<tbody>
 												<tr>													
-													<td><a href="test1.html" >bts1113220001</a></td>
+													<td><a href="test1.php" >bts1113220001</a></td>
 													<td>13/11/65</td>
 													<td>ขนาดรูปเล็กไป,อยากไห้สีเหลืองเข้มขึ้นอีก</td>
 													
 													
 												</tr>
+												<?php if($_SESSION["fix"] == 2){ ?>
+													<tr>										
+													<td><a href="test1.php" >bts1112220001</a></td>
+													<td><?php echo $_SESSION["date1"]; ?></td>
+													<td><?php echo $_SESSION["message"]; ?></td>
+													
+													
+												</tr>
+													<?php } ?>
 												
 												
 											</tbody>
@@ -278,8 +317,8 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="indexLoginIsTrue.html">หน้าหลัก</a></li>
-										<li><a href="order.html">รายการที่ลูกค้าสั่ง</a></li>
+										<li><a href="indexLoginIsTrue.php">หน้าหลัก</a></li>
+										<li><a href="order.php">รายการที่ลูกค้าสั่ง</a></li>
 										
 										<li><a href="checkorder.html">ข้อมูลลูกค้า</a></li>
 										<!-- <li>

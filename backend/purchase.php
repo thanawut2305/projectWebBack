@@ -15,6 +15,26 @@
 				prompt("กรอกเงินที่ลูกค้าจ่ายผิด");
 			}
 		</script>
+		<?php 
+		@ini_set('display_errors', '0');
+			session_start();
+			$logo = $_SESSION["screenPicture"];
+			$_SESSION["price2"] = $_POST["price"];
+			$_SESSION["st"] = $_POST["st"];
+		?>
+		<style>
+	.modal {
+  display: show;
+  position: ;
+  height: 80px;
+  width: ;: 80px;
+  
+  
+  
+  overflow: hidden;
+  background-color: white;
+}
+</style>
 	</head>
 	<body class="is-preload">
 
@@ -50,6 +70,10 @@
 								<header>
 								</header>
 								<div class="Center2">
+								<?php 
+											session_start();
+											echo $_SESSION["bill"];
+											?>
 									<h3>การชำระเงินของลูกค้า</h3>
 									<div class="table-wrapper">
 										<table class="alt">
@@ -136,7 +160,38 @@
 													<td>ชำระเรียบร้อย</td>
 													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
 												</tr>
-												
+												<tr>
+												<td>bts1013220001</td>
+													<td>1000</td>
+													<td>500</td>
+													<td>500</td>
+													<td>0</td>
+													<td>11/11/65</td>
+													<td><a href="#" class="fa fa-file"></a></td>
+													<td>รอตรวจสอบการมัดจำ</td>
+													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
+												</tr>
+												<?php if($_SESSION["start"]=="1"){ ?>
+												<tr>												
+												<td>bts1013220001</td>
+													<td><?php echo $_SESSION["price"]; ?></td>
+													<td><?php echo $_SESSION["deposit"]; ?></td>
+													<td><?php echo $_SESSION["price"]-$_SESSION["price2"]; ?></td>
+													<td><?php echo $_SESSION["price"]-$_SESSION["price2"]; ?></td>
+													<td><?php echo $_SESSION["date"]; ?></td>
+													<td><span><img class="modal" src="images/TXN_202003051xxU8nbrdzPgP3V9h.jpg" alt="" /></span></td>
+													<?php if($_SESSION["st"] == "มัดจำถูกต้อง"){ ?>
+													<td>มัดจำถูกต้อง</td>
+													<?php }else if($_SESSION["st"] == "มัดจำไม่ถูกต้อง"){ ?>
+														<td>มัดจำไม่ถูกต้อง</td>
+														<?php } else if($_SESSION["st"] == "จ่ายเต็มจำนวนถูกต้อง"){ ?>
+														<td>กำลังผลิต</td>
+														<?php }else{ ?>
+															<td>รอตรวจสอบการมัดจำ</td>
+															<?php } ?>
+													<td><a href="detailPurchase.php">คลิ๊กที่นี่</a></td>
+												</tr>
+												<?php } ?>
 											</tbody>
 											
 										</table>
@@ -263,8 +318,8 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="indexLoginIsTrue.html">หน้าหลัก</a></li>
-										<li><a href="order.html">รายการที่ลูกค้าสั่ง</a></li>
+										<li><a href="indexLoginIsTrue.php">หน้าหลัก</a></li>
+										<li><a href="order.php">รายการที่ลูกค้าสั่ง</a></li>
 										
 										<li><a href="checkorder.html">ข้อมูลลูกค้า</a></li>
 										
