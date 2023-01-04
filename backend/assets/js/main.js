@@ -289,4 +289,8 @@
 				console.log(image_input_bill.value);
 			});
 
+			$(document).ready(function () {
+				$('#example').DataTable();
+			});
+
 })(jQuery);

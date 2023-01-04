@@ -2524,6 +2524,11 @@ div.img-resize2 img {
     width: 95%;
   }
 
+  .Center3 {
+    margin: auto;
+    width: 50%;
+  }
+
   .positionTable{
     padding-top: -20px;
   }

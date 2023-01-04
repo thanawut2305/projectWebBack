@@ -55,36 +55,35 @@
 										<table class="alt">
 											<thead>
 												<tr>
-													<th>ลำดับที่</th>
-													
-													
 													<th>id order</th>
 													<th>ราคาเต็ม</th>
-													<th>ราคามัดจำ</th>
-													<th>ประเภทการชำระ</th>
+													<th>ราคามัดจำ (ขั้นต่ำ)</th>
+													<th>ราคาที่ลูกค้าจ่าย</th>
 													<th>ยอดค้างชำระ</th>
-													<th>วันที่ชำระ</th>
+													<th>วันที่ชำระล่าสุด</th>
 													<th>สลีป</th>
-													<th>อนุมัติการชำระเงิน</th>
+													<th>สถานะ</th>
+													<th>รายละเอียด</th>
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
-													<td>1</td>
-													
-													
 													<td>bts1111220001</td>
 													<td>1000</td>
-													<td>200</td>
-													<td>มัดจำ</td>
-													<td>800</td>
+													<td>500</td>
+													<td>500</td>
+													<td>0</td>
 													<td>11/11/65</td>
-													<td>
+													<td><a href="#" class="fa fa-file"></a></td>
+													<td>รอตรวจสอบการมัดจำ</td>
+													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
+													
+													<!-- <td>
 														<div class="displayShirt2">
 															<div class="img-resize2"><span><img src="" alt="" /></span></div>
 														</div>
-													</td>
-													<td>
+													</td> -->
+													<!-- <td>
 														<div class="positionTable">
 															<input type="button" class="button secondary" onclick="return confirm('ยืนยันการชำระเงินถูกต้อง')" value="การชำระถูกต้อง"></input><br>
 														</div>
@@ -92,82 +91,40 @@
 															<input type="button" class="button danger" onclick="popup();" value="การชำระไม่ถูกต้อง"></input><br>
 														</div>
 														
-													</td>
+													</td> -->
 												</tr>
 												<tr>
-													<td>2</td>
-													
-													
-													<td>bts1112220001</td>
-													<td>000</td>
-													<td>400</td>
-													<td>จ่ายเต็มจำนวน</td>
-													<td>0</td>
-													<td>12/11/65</td>
-													<td>
-														<div class="displayShirt2">
-															<div class="img-resize2"><span><img src="" alt="" /></span></div>
-														</div>
-													</td>
-													<td>
-														<div class="positionTable">
-															<input type="button" class="button secondary" onclick="return confirm('ยืนยันการชำระเงินถูกต้อง')" value="การชำระถูกต้อง"></input><br>
-														</div>
-														<div class="positionTable">
-															<input type="button" class="button danger" value="การชำระไม่ถูกต้อง"></input><br>
-														</div>
-														
-													</td>
-												</tr>
-												<tr>
-													<td>3</td>
-													
-												
-													<td>bts1113220001</td>
+												<td>bts1112220001</td>
+													<td>1000</td>
 													<td>500</td>
-													<td>100</td>
-													<td>มัดจำ</td>
-													<td>400</td>
-													<td>13/11/65</td>
-													<td>
-														<div class="displayShirt2">
-															<div class="img-resize2"><span><img src="" alt="" /></span></div>
-														</div>
-													</td>
-													<td>
-														<div class="positionTable">
-															<input type="button" class="button secondary" onclick="return confirm('ยืนยันการชำระเงินถูกต้อง')" value="การชำระถูกต้อง"></input><br>
-														</div>
-														<div class="positionTable">
-															<input type="button" class="button danger" value="การชำระไม่ถูกต้อง"></input><br>
-														</div>
-														
-													</td>
+													<td>500</td>
+													<td>0</td>
+													<td>11/11/65</td>
+													<td><a href="#" class="fa fa-file"></a></td>
+													<td>รอตรวจสอบการมัดจำ</td>
+													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
 												</tr>
 												<tr>
-													<td>4</td>
-													
-													
-													<td>bts1013220001</td>
-													<td>800</td>
-													<td>80</td>
-													<td>มัดจำ</td>
-													<td>720</td>
-													<td>13/10/65</td>
-													<td>
-														<div class="displayShirt2">
-															<div class="img-resize2"><span><img src="" alt="" /></span></div>
-														</div>
-													</td>
-													<td>
-														<div class="positionTable">
-															<input type="button" class="button secondary" onclick="return confirm('ยืนยันการชำระเงินถูกต้อง')" value="การชำระถูกต้อง"></input><br>
-														</div>
-														<div class="positionTable">
-															<input type="button" class="button danger" value="การชำระไม่ถูกต้อง"></input><br>
-														</div>
-														
-													</td>
+												<td>bts1112220002</td>
+													<td>1000</td>
+													<td>500</td>
+													<td>500</td>
+													<td>0</td>
+													<td>11/11/65</td>
+													<td><a href="#" class="fa fa-file"></a></td>
+													<td>รอตรวจสอบการมัดจำ</td>
+													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
+												</tr>
+												<tr>
+												<td>bts1013220001</td>
+													<td>1000</td>
+													<td>500</td>
+													<td>500</td>
+													<td>0</td>
+													<td>11/11/65</td>
+													<td><a href="#" class="fa fa-file"></a></td>
+													<td>รอตรวจสอบการมัดจำ</td>
+													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
 												</tr>
 												
 											</tbody>
