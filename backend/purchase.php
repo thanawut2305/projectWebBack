@@ -72,7 +72,7 @@
 													<td>1000</td>
 													<td>500</td>
 													<td>500</td>
-													<td>0</td>
+													<td>500</td>
 													<td>11/11/65</td>
 													<td><a href="#" class="fa fa-file"></a></td>
 													<td>รอตรวจสอบการมัดจำ</td>
@@ -95,35 +95,45 @@
 												</tr>
 												<tr>
 												<td>bts1112220001</td>
+													<td>2000</td>
 													<td>1000</td>
 													<td>500</td>
-													<td>500</td>
-													<td>0</td>
-													<td>11/11/65</td>
+													<td>1500</td>
+													<td>12/11/65</td>
 													<td><a href="#" class="fa fa-file"></a></td>
 													<td>รอตรวจสอบการมัดจำ</td>
 													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
 												</tr>
 												<tr>
 												<td>bts1112220002</td>
-													<td>1000</td>
-													<td>500</td>
-													<td>500</td>
-													<td>0</td>
-													<td>11/11/65</td>
+													<td>3000</td>
+													<td>1500</td>
+													<td>1600</td>
+													<td>1400</td>
+													<td>12/11/65</td>
 													<td><a href="#" class="fa fa-file"></a></td>
-													<td>รอตรวจสอบการมัดจำ</td>
+													<td>รอชำระเต็มจำนวน</td>
 													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
 												</tr>
 												<tr>
 												<td>bts1013220001</td>
 													<td>1000</td>
 													<td>500</td>
-													<td>500</td>
-													<td>0</td>
-													<td>11/11/65</td>
+													<td>700</td>
+													<td>300</td>
+													<td>13/10/65</td>
 													<td><a href="#" class="fa fa-file"></a></td>
 													<td>รอตรวจสอบการมัดจำ</td>
+													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
+												</tr>
+												<td>bts1113220002</td>
+													<td>1000</td>
+													<td>500</td>
+													<td>1000</td>
+													<td>0</td>
+													<td>13/11/65</td>
+													<td><a href="#" class="fa fa-file"></a></td>
+													<td>ชำระเรียบร้อย</td>
 													<td><a href="detailPurchase.html">คลิ๊กที่นี่</a></td>
 												</tr>
 												
