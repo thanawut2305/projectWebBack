@@ -67,6 +67,7 @@
 											</div><br> -->
 											<!-- <input type="text" id="addr" name="addr" value="12 nowhere"><br> -->
                                             <label for="fname">phone: <?php echo $_SESSION["phone"]; ?></label><br>
+                                            <!-- <label for="fname">เลขบัญชี 4 ตัวท้าย: 1234</label><br> -->
                                             <label for="fname">จำนวน: <?php echo $_SESSION["quantity"]; ?> ตัว</label><br>
                                             <label for="fname">ราคาเต็ม: <?php echo $_SESSION["price"]; ?> บาท</label><br>
                                             <label for="fname">ราคาที่ลูกค้าจ่าย: <?php echo $_SESSION["deposit"]; ?> บาท</label><br>

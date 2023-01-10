@@ -118,7 +118,7 @@
 													<input type="text" name="serial" ></input>
 													<br>
 													<a href="order.html" onclick="return confirm('คุณต้องการยกเลิกออเดอร์นี้')" class="button primary">ยกเลิก</a>
-													<button type="submit" class="button secondary" name="action" value="check">ยืนยันการสั่ง</input>
+													<button type="submit" class="button secondary" name="action" value="check">บันทึก</input>
 												</form>
 
 													<form method="post" action="#">
