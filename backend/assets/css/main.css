@@ -1489,6 +1489,11 @@ ul.pagination {
 table {
   margin: 0 0 2em 0;
   width: 100%; }
+
+  table .dontshow{
+    border-style: none;
+  }
+
   table tbody tr {
     border: solid 1px rgba(210, 215, 217, 0.75);
     border-left: 0;
@@ -1523,6 +1528,7 @@ table {
       border-bottom: 0; }
     table.alt tfoot {
       border-top: 0; }
+
 
 /* Button */
 input[type="submit"],
@@ -2428,6 +2434,17 @@ button,
       background-color: #ffffff;
     box-shadow: inset 0 0 0 2px #29c00b;
     color: #2fc810 !important;
+    }
+
+  .shbox{
+      width: 550px;
+      height: 90%;
+      background-color: #f4f4f7;
+      border: 1px solid rgb(199, 194, 194);
+      border-radius: 15px;
+      align-items: center;
+      justify-content: center;
+      /* margin-left: 33%; */
     }
 
 .boxCenter{

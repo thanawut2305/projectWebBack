@@ -157,6 +157,7 @@ hr {
   text-align: right; }
 
 		</style>
+		
 	</head>
 	<body class="is-preload">
 
