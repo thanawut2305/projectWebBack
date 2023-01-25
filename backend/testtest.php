@@ -145,7 +145,7 @@ function slider5(){
 											<div id="boxCenter">
 												<div class="displayShirt">												
 													<p><strong>ภาพที่จะใช้สกรีน</strong></p>
-													<div class="img-resize"><span><img src="">" alt="" /></span></div>
+													<div class="img-resize"><span><img src=""></span></div>
 												</div>
 											</div>	
 										</div>
@@ -154,7 +154,7 @@ function slider5(){
                                             <div id="boxCenter">		
                                                 <div class="displayShirt">
                                                     <p><strong>เสื้อยืดที่เลือก</strong></p>
-                                                        <div class="img-resize"><span><img src="">" alt="" /></span></div><br>
+                                                        <div class="img-resize"><span><img src=""></span></div><br>
                                                 </div>
                                             </div>			
                                         </div>

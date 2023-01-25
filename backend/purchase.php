@@ -474,6 +474,16 @@ hr {
 											</ul>
 										</li> -->
 										<li><a href="purchase.php">การชำระเงิน</a></li>
+										<!-- <li><a href="management.html">การจัดการระบบ</a></li> -->
+										<li><span class="opener">การจัดการระบบ</span>
+										<ul>
+                                            <li><a href="managementSize.html">จัดการราคาไซส์เสื้อ</a></li>
+                                            <li><a href="managementColorTshirt.html">จัดการสีเสื้อ</a></li>
+                                            <li><a href="managementColor.html">จัดการสีสกรีน</a></li>
+                                            <li><a href="managementBlock.html">จัดการบล็อกพิมพ์</a></li>
+                                            <li><a href="managementTransport.html">จัดการค่าขนส่ง</a></li>
+                                        </ul>
+										</li>
 										<!-- <li><a href="#">Adipiscing</a></li> -->
 										<!-- <li>
 											<span class="opener">Another Submenu</span>

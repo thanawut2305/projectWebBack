@@ -200,7 +200,8 @@ hr {
 									<header>
 									</header>
 									<div class="Center">
-										
+
+										<h4>Search</h4>
 									<input type="text" id="Search_All">
 										<h3 class="display-inline">ออร์เดอร์ที่อยู่ในระหว่างการดำเนินการ</h3><nobr>
 
@@ -257,15 +258,17 @@ hr {
 												</tbody>
 												
 											</table>
-										</div>
+											</div>
 										
-									</div>
+										
+										</div>
 									
 									<!-- <span class="image object">
 										<img src="images/pic10.jpg" alt="" />
 									</span> -->
 									
 								</section>
+								<section>
 								<div class="Center">
 									<h3>ออเดอร์ที่ยังไม่ได้ประเมินราคา</h3>
 									<div class="table-wrapper">
@@ -310,6 +313,8 @@ hr {
 									</div>
 									
 								</div>
+								</section>
+								<section>
 								<div class="Center">
 									<h3>ออเดอร์ที่ต้องแก้ไขตัวอย่าง</h3>
 									<div class="table-wrapper">
@@ -349,6 +354,7 @@ hr {
 									</div>
 									
 								</div>
+								</section>
 							<!-- Section -->
 								<!-- <section>
 									<header class="major">
@@ -472,6 +478,16 @@ hr {
 											</ul>
 										</li> -->
 										<li><a href="purchase.php">การชำระเงิน</a></li>
+										<!-- <li><a href="management.html">การจัดการระบบ</a></li> -->
+										<li><span class="opener">การจัดการระบบ</span>
+										<ul>
+                                            <li><a href="managementSize.html">จัดการราคาไซส์เสื้อ</a></li>
+                                            <li><a href="managementColorTshirt.html">จัดการสีเสื้อ</a></li>
+                                            <li><a href="managementColor.html">จัดการสีสกรีน</a></li>
+                                            <li><a href="managementBlock.html">จัดการบล็อกพิมพ์</a></li>
+                                            <li><a href="managementTransport.html">จัดการค่าขนส่ง</a></li>
+                                        </ul>
+										</li>
 										<!-- <li><a href="#">Adipiscing</a></li> -->
 										<!-- <li>
 											<span class="opener">Another Submenu</span>
