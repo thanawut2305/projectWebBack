@@ -177,19 +177,9 @@ hr {
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<!-- Header -->
 								<header id="header">
 									<p>ยินดีต้อนรับ คุณ admin</p>
-									<!-- <a href="index.html" class="logo2">logout2</a> -->
-									<!-- <a href="index.html" class="logo">logout</a> -->
-									
-									<!-- <strong>ยินดีต้อนรับ</strong> -->
 									<ul class="icons">
-										<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
 										<li><a href="profile.html" class="logo">แก้ไขข้อมูลส่วนตัว</a></li>
 										<li><a href="index.html" class="logo">logout</a></li>
 									</ul>
@@ -197,13 +187,10 @@ hr {
 								</header>
 							<!-- Banner -->
 								<section id="banner">
-									<header>
-									</header>
 									<div class="Center">
-
 										<h4>Search</h4>
 									<input type="text" id="Search_All">
-										<h3 class="display-inline">ออร์เดอร์ที่อยู่ในระหว่างการดำเนินการ</h3><nobr>
+										<h3 class="display-inline">ออร์เดอร์ที่อยู่ในระหว่างการดำเนินการ</h3> 
 
 										<div class="table-wrapper">
 											<table class="alt">
@@ -488,48 +475,13 @@ hr {
                                             <li><a href="managementTransport.html">จัดการค่าขนส่ง</a></li>
                                         </ul>
 										</li>
-										<!-- <li><a href="#">Adipiscing</a></li> -->
-										<!-- <li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li> -->
-										<!-- <li><a href="#">Maximus Erat</a></li> -->
-										<!-- <li><a href="#">Sapien Mauris</a></li> -->
-										<!-- <li><a href="contact.html">ติดต่อเรา</a></li> -->
+
 									</ul>
 								</nav>
-							<!-- Section -->
-								<!-- <section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section> -->
-								
 						</div>
 					</div>
 			</div>
+			
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>

@@ -165,7 +165,7 @@ hr {
 .align-right {
   text-align: right; }
 
-	.modal {
+	.model {
   display: show;
   position: ;
   height: 80px;
@@ -212,7 +212,7 @@ hr {
 								</header>
 								<div class="Center2">
 								<?php 
-											session_start();
+											 
 											echo $_SESSION["bill"];
 											?>
 									<h3>การชำระเงินของลูกค้า</h3>
@@ -315,12 +315,12 @@ hr {
 												<?php if($_SESSION["start"]=="1"){ ?>
 												<tr>												
 												<td>bts1013220001</td>
-													<td><?php echo $_SESSION["price"]; ?></td>
+													<td><?php echo $_SESSION["sum"]; ?></td>
 													<td><?php echo $_SESSION["deposit"]; ?></td>
-													<td><?php echo $_SESSION["price"]-$_SESSION["price2"]; ?></td>
-													<td><?php echo $_SESSION["price"]-$_SESSION["price2"]; ?></td>
+													<td><?php echo $_SESSION["price2"]; ?></td>
+													<td><?php echo $_SESSION["sum"]-$_SESSION["price2"]; ?></td>
 													<td><?php echo $_SESSION["date"]; ?></td>
-													<td><span><img class="modal" src="images/TXN_202003051xxU8nbrdzPgP3V9h.jpg" alt="" /></span></td>
+													<td><span><img class="model" src="images/TXN_202003051xxU8nbrdzPgP3V9h.jpg" alt="" /></span></td>
 													<?php if($_SESSION["st"] == "มัดจำถูกต้อง"){ ?>
 													<td>มัดจำถูกต้อง</td>
 													<?php }else if($_SESSION["st"] == "มัดจำไม่ถูกต้อง"){ ?>
@@ -474,7 +474,6 @@ hr {
 											</ul>
 										</li> -->
 										<li><a href="purchase.php">การชำระเงิน</a></li>
-										<!-- <li><a href="management.html">การจัดการระบบ</a></li> -->
 										<li><span class="opener">การจัดการระบบ</span>
 										<ul>
                                             <li><a href="managementSize.html">จัดการราคาไซส์เสื้อ</a></li>
@@ -484,19 +483,6 @@ hr {
                                             <li><a href="managementTransport.html">จัดการค่าขนส่ง</a></li>
                                         </ul>
 										</li>
-										<!-- <li><a href="#">Adipiscing</a></li> -->
-										<!-- <li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li> -->
-										<!-- <li><a href="#">Maximus Erat</a></li> -->
-										<!-- <li><a href="#">Sapien Mauris</a></li> -->
-										<!-- <li><a href="contact.html">ติดต่อเรา</a></li> -->
 									</ul>
 								</nav>
 
