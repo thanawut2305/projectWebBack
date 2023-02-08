@@ -193,6 +193,7 @@ hr {
 													<td>นามสกุล</td>
 													<td>วันที่สั่งออร์เดอร์ล่าสุด</td>
 													<td>id order</td>
+													<td>สถานะ</td>
 													<td>ออร์เดอร์</td>
 												</tr>
 											</thead>
@@ -202,6 +203,7 @@ hr {
 													<td>หลงเหลือยิ่ง</td>
 													<td>11/11/65</td>
 													<td>bts1111220001</td>
+													<td>กำลังประเมินราคา</td>
 													<td><a href="test1.php" class="button secondary" value="คลิ๊กที่นี่">คลิ๊กที่นี่</a></td>
 												</tr>
 												<tr>												
@@ -209,6 +211,7 @@ hr {
 													<td>อุดรรัตนธี</td>
 													<td>12/11/65</td>
 													<td>bts1112220001</td>
+													<td>กำลังประเมินราคา</td>
 													<td><a href="test1.php" class="button secondary" value="คลิ๊กที่นี่">คลิ๊กที่นี่</a></td>
 												</tr>
 												<tr>												
@@ -216,6 +219,7 @@ hr {
 													<td>นภาลัย</td>
 													<td>13/11/65</td>
 													<td>bts1113220001</td>
+													<td>กำลังแก้ไขตัวอย่าง</td>
 													<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
 												</tr>
 												<tr>												
@@ -223,6 +227,8 @@ hr {
 													<td>ไร้สกุล</td>
 													<td>13/10/65</td>
 													<td>bts1013220001</td>
+													<td>กำลังผลิต</td>
+													
 													<td><input type="button" class="button secondary" value="คลิ๊กที่นี่"></input></td>
 												</tr>
 												<?php if($_SESSION["start"]=="1"){ ?>
@@ -231,6 +237,7 @@ hr {
 													<td><?php echo $_SESSION["fname"]; ?></td>
 													<td><?php echo $_SESSION["date1"]; ?></td>
 													<td>bts1013220001</td>
+													<td>กำลังแก้ไขตัวอย่าง</td>
 													<td><a href="test2.php" class="button secondary" value="คลิ๊กที่นี่">คลิ๊กที่นี่</a></td>
 												</tr>
 												<?php } ?>
