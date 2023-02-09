@@ -189,7 +189,22 @@ hr {
 								<section id="banner">
 									<div class="Center">
 										<h4>Search</h4>
-									<input type="text" id="Search_All">
+										<input type="text" id="Search_All">
+										<div class="row gtr-200">
+											<div class="col-4" style="margin: 20px 20px 20px 0px;">
+												<select name="transportation-category" id="transportation-category" >
+													<option value="1">ออร์เดอร์ที่อยู่ในระหว่างการดำเนินการ</option>
+													<option value="2">ออเดอร์ที่ยังไม่ได้ประเมินราคา</option>
+													<option value="3">ออเดอร์ที่ต้องแก้ไขตัวอย่าง</option>
+												</select>
+											</div>
+
+											<div class="col-4" style="margin: 20px 20px 20px 0px;">
+												<input type="button" class="button secondary" value="ค้นหา"></input>
+
+											</div>
+										</div>
+
 										<h3 class="display-inline">ออร์เดอร์ที่อยู่ในระหว่างการดำเนินการ</h3> 
 
 										<div class="table-wrapper">
