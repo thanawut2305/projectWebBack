@@ -36,8 +36,7 @@
 									<!-- Elements -->
 										<!-- <h2 id="elements">Elements</h2> -->
 										<div class="row gtr-200">
-											<div class="col-6 col-12-medium">
-
+											<div class="col-5 col-12-medium">
 												<div class="displayShirt">
 													<!-- <div class="col-8 col-12-small">
 														<p>รูปที่จะใช้สกรีน</p>
@@ -45,29 +44,90 @@
 													<p><strong>ภาพที่จะใช้สกรีน</strong></p>
 													<div class="img-resize"><span><img src="<?php echo $_SESSION["screenPicture"]; ?>" alt="" /></span></div>
 													<!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p> -->
-	
 												</div>
+											</div>
+											<div class="col-5 col-12-medium">
 												<div class="displayShirt">
 													<p><strong>เสื้อยืดที่เลือก</strong></p>
 													<div class="img-resize"><span><img src="<?php echo $_SESSION["color"]; ?>" alt="" /></span></div><br>
 												</div>
+											</div>
+											<div class="col-5 col-12-medium">
 												<div class="displayShirt">
-												<div id="boxCenter">
-												<p><strong>ตัวอย่างการสกรีน</strong></p>
-												<div id="display_image"></div><br>
+													<div id="boxCenter">
+														<p><strong>ตัวอย่างการสกรีน</strong></p>
+															<div id="display_image"></div><br>
 												<!-- <span>*กรุณาเลือกลายรูป*</span><br><br> -->
 												
-												<input type="file" id="image_input" name="logofile" accept="image/png, image/jpeg">
-												<?php 
+																<input type="file" id="image_input" name="logofile" accept="image/png, image/jpeg">
+																<?php 
 													
-												?>
-											</div>
+																?>
+													</div>
 												</div>
 											</div>
+										</div>
+										
 											<div class="col-6 col-12-medium">
 
+												<div class="col-12 col-12-small">
+													<h4>ประเมินราคาเสื้อยืด</h4>
+												</div>
+															<div class="col-10 col-12-small">
+																<div class="table-wrapper">
+																	<table class="alt">
+																		
+																			<tbody>
+																			<tr>
+																				<td>ขนาด</th>
+																				<td>S</td>
+																				<td>M</td>
+																				<td>L</td>
+																			</tr>
+																			<tr>
+																				<td>จำนวน(ตัว)</td>
+																				<td>100</td>
+																				<td>100</td>
+																				<td>100</td>
+																			</tr>
+																			<tr>
+																				<td>ระยะห่างของลายแบบกับขอบด้านบน(นิ้ว)</td>
+																				<td>6</td>
+																				<td>6</td>
+																				<td>6</td>
+																			</tr>
+																				<tr>
+																				<td>ระยะห่างของลายแบบกับขอบด้านล่าง(นิ้ว)</td>
+																				<td>6</td>
+																				<td>6</td>
+																				<td>6</td>
+																			</tr>
+																			<tr>
+																				<td>ระยะห่างของลายแบบกับขอบด้านซ้าย(นิ้ว)</td>
+																				<td>6</td>
+																				<td>6</td>
+																				<td>6</td>
+																			</tr>
+																			<tr>
+																				<td>ระยะห่างของลายแบบกับขอบด้านขวา(นิ้ว)</td>
+																				<td>6</td>
+																				<td>6</td>
+																				<td>6</td>
+																			</tr>
+																			<tr>
+																				<td>ราคาที่ประเมิน</td>
+																				<td><input type="number" value=""></input></td>
+																				<td><input type="number" value=""></input></td>
+																				<td><input type="number" value=""></input></td>
+																			</tr>
+																		</tbody>
+																	
+																	</table>
+																</div>
+															</div>
+
 												<form class="boxOrder">
-												<label for="fname">ไซส์เสื้อยืด: <?php echo $_SESSION["size"]; ?> </label>
+													<!-- <label for="fname">ไซส์เสื้อยืด: <?php echo $_SESSION["size"]; ?> </label>
 													<br>
 													<label for="lname">สีเสื้อยืด: <?php echo $_SESSION["color_name"]; ?></label>
 													<br>
@@ -80,52 +140,59 @@
 													<label for="fname">ตำแหน่งภาพห่างจากซ้าย (นิ้ว): <?php echo $_SESSION["a"]; ?></label>
 													<br>
 													<label for="fname">ตำแหน่งภาพห่างจากขวา (นิ้ว): <?php echo $_SESSION["d"]; ?></label>
-													<br>
+													<br> -->
 													<label for="fname">ขนาดภาพกว้าง (นิ้ว): <?php echo $_SESSION["wide"]; ?></label>
-													<br>
+													
 													<label for="fname">ขนาดภาพยาว (นิ้ว): <?php echo $_SESSION["long"]; ?></label>
-													<br>
-													
-													<br>
-													<!-- <input type="text" id="addr" name="addr" value="12 nowhere"><br> -->
-													<label for="fname">ชื่อลูกค้า: <?php echo $_SESSION["name"]; ?></label>
-													<label for="fname">นามสกุลลูกค้า: <?php echo $_SESSION["fname"]; ?></label>
-													<label for="fname">ที่อยู่: <?php echo $_SESSION["address"]; ?></label>
-													<label for="fname">เบอร์โทร: <?php echo $_SESSION["phone"]; ?></label>
-													
-													<!-- <a href="purchase.html" class="button secondary">ชำระเงิน</a> -->
-													<!-- <a href="purchase.html" class="button secondary">ชำระเงินคงเหลือ</a> -->
-													<label for="lname">ราคาที่ประเมิน: </label>
-													<input type="number" value=""></input>
-													<label >สถานะออเดอร์:</label>
-													<select name="option" id="8">
- 														 <option value="1">กำลังประเมินราคา</option>
- 														 <option value="2">รอชำระเงินมัดจำ/เต็มจำนวน</option>
-														 <option value="3">รอการชำระเงินส่วนที่เหลือ</option>
-														  
- 														 <option value="4">กำลังผลิต</option>
- 														 <option value="5">กำลังจัดส่งสินค้า</option>
-														 <option value="6">จัดส่งสินค้าสำเร็จ</option>
-													</select>
-													<label for="lname">บริการขนส่งโดย: -</label>
-													<select name="tp">
- 														 <option value="Kerry">Kerry</option>
- 														 <option value="ไปรษณีไทย">ไปรษณีไทย</option>
-													</select>
-													<label for="lname">หมายเลขรหัสพัสดุ: -</label>
-													<input type="text" name="serial" ></input>
-													<br>
-													<a href="order.html" onclick="return confirm('คุณต้องการยกเลิกออเดอร์นี้')" class="button primary">ยกเลิก</a>
-													<button type="submit" class="button secondary" name="action" value="check">บันทึก</input>
 												</form>
-
-													<form method="post" action="#">
-														<div class="row gtr-uniform">
+												<div class="row gtr-200">
+													<div class="col-5 col-12-medium">
+														
+														<form class="boxOrder">
+														<h2>ข้อมูลลูกค้า</h2>
+															<!-- <input type="text" id="addr" name="addr" value="12 nowhere"><br> -->
+															<label for="fname">ชื่อลูกค้า: <?php echo $_SESSION["name"]; ?></label>
+															<label for="fname">นามสกุลลูกค้า: <?php echo $_SESSION["fname"]; ?></label>
+															<label for="fname">ที่อยู่: <?php echo $_SESSION["address"]; ?></label>
+															<label for="fname">เบอร์โทร: <?php echo $_SESSION["phone"]; ?></label>
+														</form>
+													</div>
+															<!-- <a href="purchase.html" class="button secondary">ชำระเงิน</a> -->
+															<!-- <a href="purchase.html" class="button secondary">ชำระเงินคงเหลือ</a> -->
+															<!-- <label for="lname">ราคาที่ประเมิน: </label>
+															<input type="number" value=""></input> -->
+													<div class="col-5 col-12-medium">
+														<form class="boxOrder">
+														<label >สถานะออเดอร์:</label>
+														<select name="option" id="8">
+															<option value="1">กำลังประเมินราคา</option>
+															<option value="2">รอชำระเงินมัดจำ/เต็มจำนวน</option>
+															<option value="3">รอการชำระเงินส่วนที่เหลือ</option>
 															
-														</div>
-													
+															<option value="4">กำลังผลิต</option>
+															<option value="5">กำลังจัดส่งสินค้า</option>
+															<option value="6">จัดส่งสินค้าสำเร็จ</option>
+														</select>
+														<label for="lname">บริการขนส่งโดย: -</label>
+														<select name="tp">
+															<option value="Kerry">Kerry</option>
+															<option value="ไปรษณีไทย">ไปรษณีไทย</option>
+														</select>
+														<label for="lname">หมายเลขรหัสพัสดุ: -</label>
+														<input type="text" name="serial" ></input>
+														<br>
+														<a href="order.html" onclick="return confirm('คุณต้องการยกเลิกออเดอร์นี้')" class="button primary">ยกเลิก</a>
+														<button type="submit" class="button secondary" name="action" value="check">บันทึก</input>
+													</form>
+
+														<form method="post" action="#">
+															<div class="row gtr-uniform">
+																
+															</div>
+													</div>
+												</div>
 											</div>
-										</div>
+										
 
 								</section>
 </form>
