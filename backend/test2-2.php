@@ -115,7 +115,7 @@
 																				<td>6</td>
 																			</tr>
 																			<tr>
-																				<td>ราคาที่ประเมิน</td>
+																				<td>ราคาที่ประเมิน(จำนวนตัว/ไซส์)</td>
 																				<td><input type="number" value=""></input></td>
 																				<td><input type="number" value=""></input></td>
 																				<td><input type="number" value=""></input></td>

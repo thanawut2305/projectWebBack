@@ -1699,6 +1699,12 @@ button,
     pointer-events: none;
     opacity: 0.25; }
 
+  /* Number */
+  input[type="number"],
+  .number{
+    width: 100px;
+  }
+
 /* Mini Posts */
 .mini-posts article {
   border-top: solid 1px rgba(210, 215, 217, 0.75);
